@@ -9,19 +9,41 @@
 /* Begin PBXBuildFile section */
 		8A40C06128653CA000DDEF50 /* CurrencyJamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05128653C9E00DDEF50 /* CurrencyJamApp.swift */; };
 		8A40C06228653CA000DDEF50 /* CurrencyJamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05128653C9E00DDEF50 /* CurrencyJamApp.swift */; };
-		8A40C06328653CA000DDEF50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05228653C9E00DDEF50 /* ContentView.swift */; };
-		8A40C06428653CA000DDEF50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05228653C9E00DDEF50 /* ContentView.swift */; };
+		8A40C06328653CA000DDEF50 /* LocalePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05228653C9E00DDEF50 /* LocalePicker.swift */; };
+		8A40C06428653CA000DDEF50 /* LocalePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C05228653C9E00DDEF50 /* LocalePicker.swift */; };
 		8A40C06528653CA000DDEF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40C05328653CA000DDEF50 /* Assets.xcassets */; };
 		8A40C06628653CA000DDEF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40C05328653CA000DDEF50 /* Assets.xcassets */; };
+		8A40C07028665EA900DDEF50 /* MoneyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C06F28665EA900DDEF50 /* MoneyParser.swift */; };
+		8A40C07128665EA900DDEF50 /* MoneyParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C06F28665EA900DDEF50 /* MoneyParser.swift */; };
+		8A40C0732866619400DDEF50 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C0722866619400DDEF50 /* Currency.swift */; };
+		8A40C0742866619400DDEF50 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C0722866619400DDEF50 /* Currency.swift */; };
+		8A40C076286661A000DDEF50 /* LocaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C075286661A000DDEF50 /* LocaleOptions.swift */; };
+		8A40C077286661A000DDEF50 /* LocaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C075286661A000DDEF50 /* LocaleOptions.swift */; };
+		8A40C0892866683100DDEF50 /* MoneyParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40C0882866683100DDEF50 /* MoneyParserTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A40C0832866682600DDEF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A40C04C28653C9E00DDEF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A40C05728653CA000DDEF50;
+			remoteInfo = "CurrencyJam (iOS)";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8A40C05128653C9E00DDEF50 /* CurrencyJamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyJamApp.swift; sourceTree = "<group>"; };
-		8A40C05228653C9E00DDEF50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8A40C05228653C9E00DDEF50 /* LocalePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalePicker.swift; sourceTree = "<group>"; };
 		8A40C05328653CA000DDEF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A40C05828653CA000DDEF50 /* CurrencyJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40C05E28653CA000DDEF50 /* CurrencyJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40C06028653CA000DDEF50 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		8A40C06F28665EA900DDEF50 /* MoneyParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyParser.swift; sourceTree = "<group>"; };
+		8A40C0722866619400DDEF50 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		8A40C075286661A000DDEF50 /* LocaleOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleOptions.swift; sourceTree = "<group>"; };
+		8A40C07F2866682600DDEF50 /* CurrencyJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A40C0882866683100DDEF50 /* MoneyParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyParserTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A40C07C2866682600DDEF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -47,6 +76,7 @@
 			children = (
 				8A40C05028653C9E00DDEF50 /* Shared */,
 				8A40C05F28653CA000DDEF50 /* macOS */,
+				8A40C0802866682600DDEF50 /* Tests */,
 				8A40C05928653CA000DDEF50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,8 +85,11 @@
 			isa = PBXGroup;
 			children = (
 				8A40C05128653C9E00DDEF50 /* CurrencyJamApp.swift */,
-				8A40C05228653C9E00DDEF50 /* ContentView.swift */,
+				8A40C05228653C9E00DDEF50 /* LocalePicker.swift */,
 				8A40C05328653CA000DDEF50 /* Assets.xcassets */,
+				8A40C06F28665EA900DDEF50 /* MoneyParser.swift */,
+				8A40C0722866619400DDEF50 /* Currency.swift */,
+				8A40C075286661A000DDEF50 /* LocaleOptions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -66,6 +99,7 @@
 			children = (
 				8A40C05828653CA000DDEF50 /* CurrencyJam.app */,
 				8A40C05E28653CA000DDEF50 /* CurrencyJam.app */,
+				8A40C07F2866682600DDEF50 /* CurrencyJamTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +110,14 @@
 				8A40C06028653CA000DDEF50 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		8A40C0802866682600DDEF50 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A40C0882866683100DDEF50 /* MoneyParserTests.swift */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,6 +157,24 @@
 			productReference = 8A40C05E28653CA000DDEF50 /* CurrencyJam.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8A40C07E2866682600DDEF50 /* CurrencyJamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A40C0852866682600DDEF50 /* Build configuration list for PBXNativeTarget "CurrencyJamTests" */;
+			buildPhases = (
+				8A40C07B2866682600DDEF50 /* Sources */,
+				8A40C07C2866682600DDEF50 /* Frameworks */,
+				8A40C07D2866682600DDEF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A40C0842866682600DDEF50 /* PBXTargetDependency */,
+			);
+			name = CurrencyJamTests;
+			productName = CurrencyJamTests;
+			productReference = 8A40C07F2866682600DDEF50 /* CurrencyJamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,6 +190,10 @@
 					};
 					8A40C05D28653CA000DDEF50 = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					8A40C07E2866682600DDEF50 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 8A40C05728653CA000DDEF50;
 					};
 				};
 			};
@@ -148,6 +212,7 @@
 			targets = (
 				8A40C05728653CA000DDEF50 /* CurrencyJam (iOS) */,
 				8A40C05D28653CA000DDEF50 /* CurrencyJam (macOS) */,
+				8A40C07E2866682600DDEF50 /* CurrencyJamTests */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A40C07D2866682600DDEF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -176,8 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A40C06328653CA000DDEF50 /* ContentView.swift in Sources */,
+				8A40C076286661A000DDEF50 /* LocaleOptions.swift in Sources */,
+				8A40C06328653CA000DDEF50 /* LocalePicker.swift in Sources */,
 				8A40C06128653CA000DDEF50 /* CurrencyJamApp.swift in Sources */,
+				8A40C07028665EA900DDEF50 /* MoneyParser.swift in Sources */,
+				8A40C0732866619400DDEF50 /* Currency.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +260,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A40C06428653CA000DDEF50 /* ContentView.swift in Sources */,
+				8A40C077286661A000DDEF50 /* LocaleOptions.swift in Sources */,
+				8A40C06428653CA000DDEF50 /* LocalePicker.swift in Sources */,
 				8A40C06228653CA000DDEF50 /* CurrencyJamApp.swift in Sources */,
+				8A40C07128665EA900DDEF50 /* MoneyParser.swift in Sources */,
+				8A40C0742866619400DDEF50 /* Currency.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A40C07B2866682600DDEF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A40C0892866683100DDEF50 /* MoneyParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A40C0842866682600DDEF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A40C05728653CA000DDEF50 /* CurrencyJam (iOS) */;
+			targetProxy = 8A40C0832866682600DDEF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8A40C06728653CA000DDEF50 /* Debug */ = {
@@ -419,6 +513,47 @@
 			};
 			name = Release;
 		};
+		8A40C0862866682600DDEF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PL3B94NA79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocmp.CurrencyJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyJam.app/CurrencyJam";
+			};
+			name = Debug;
+		};
+		8A40C0872866682600DDEF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PL3B94NA79;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jocmp.CurrencyJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurrencyJam.app/CurrencyJam";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -445,6 +580,15 @@
 			buildConfigurations = (
 				8A40C06D28653CA000DDEF50 /* Debug */,
 				8A40C06E28653CA000DDEF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A40C0852866682600DDEF50 /* Build configuration list for PBXNativeTarget "CurrencyJamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A40C0862866682600DDEF50 /* Debug */,
+				8A40C0872866682600DDEF50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

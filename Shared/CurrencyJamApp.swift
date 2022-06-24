@@ -11,7 +11,7 @@ import SwiftUI
 struct CurrencyJamApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocalePicker()
         }
     }
 }
